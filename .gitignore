@@ -1,0 +1,12 @@
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+.venv/
+__pycache__/
+*.pdf
+*.txt
+*.py
