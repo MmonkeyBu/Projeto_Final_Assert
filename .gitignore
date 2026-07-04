@@ -1,0 +1,44 @@
+# Build output
+build/
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# STM32CubeMX generated
+*.ioc
+STM32CubeMX.log
+*.launch
+
+# Dependencies
+*.d
+*.map
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Doxygen output
+Doxygen/
+html/
+latex/
+
+# Node (if using npm)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
