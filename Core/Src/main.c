@@ -146,9 +146,7 @@ int main(void)
     if (Bsp_IsSamplingPending()) {
         Bsp_ClearSamplingPending();
         uint32_t adc_val = Bsp_ReadAdc();
-        if (!Button_IsFrozen()) {
-            Sampler_ProcessSample(adc_val);
-        }
+        Sampler_ProcessSample(adc_val);
     }
 
     if (Bsp_IsDebouncePending()) {
